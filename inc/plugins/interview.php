@@ -601,7 +601,7 @@ function interview_online_activity($user_activity) {
     
 function interview_online_location($plugin_array) {
     global $mybb, $theme, $lang;
-    $lang->load('instaroid');
+    $lang->load('interview');
     
     if($plugin_array['user_activity']['activity'] == "interview") {
         $plugin_array['location_name'] = $lang->interview_online;
